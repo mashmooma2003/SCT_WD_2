@@ -1,0 +1,52 @@
+/* Add these new styles to your existing CSS */
+.lap-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 8px;
+}
+
+.lap-header span {
+    flex: 1;
+    text-align: center;
+}
+
+.lap-header span:first-child {
+    text-align: left;
+    flex: 0.5;
+}
+
+.lap-header span:last-child {
+    text-align: right;
+    flex: 0.5;
+}
+
+#lapsList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lap-info {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.lap-number {
+    flex: 0.5;
+    text-align: left;
+    font-weight: bold;
+}
+
+.lap-time, .overall-time {
+    flex: 1;
+    text-align: center;
+}
+
+.lap-interval {
+    flex: 0.5;
+    text-align: right;
+}
